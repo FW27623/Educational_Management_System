@@ -25,42 +25,28 @@
 </head>
 <body>
 	<div class="container" style="width: 400px">
-		<div class="row" style="padding: 210px 100px 50px">
+		<div class="row" style="padding: 210px 95px 100px">
 			<div class="col-md-6"></div>
 			<div class="row" id="login-box">
 				<form class="form-horizontal" role="form" action="login" id="from1" method="post">
 					<fieldset>
 						<!-- 添加表单标题，请使用表单专用标题，legend -->
-						<legend align="center">教务系统</legend>
+						<legend align="center" style="font-size: 30px;font-weight: bold" >教务系统</legend>
 						<!-- 这个legend标题自带一个水平线 -->
 						<div class="form-group">
 							<label for="name">用户名：</label>
-							<input type="username" class="form-control" style="width: auto " id="username" placeholder="请输入学号" name="username">
+							<label for="username"></label><input type="username" class="form-control" style="width: auto " id="username" placeholder="请输入你的学号/学工号" name="username">
 						</div>
 				        <div class="form-group">
 							<label for="name">密  码：</label>
-							<input type="password" class="form-control" style="width: auto" id="password" placeholder="请输入密码" name="password">
+							<label for="password"></label><input type="password" class="form-control" style="width: auto" id="password" placeholder="请输入你的密码" name="password">
 				        </div>
-				  <%--<div class="form-group">--%>
-				    <%--<div class="col-sm-offset-2 col-sm-10">--%>
-				      <%--<div class="checkbox">--%>
-				        <%--<label class="checkbox-inline">--%>
-							<%--<input type="radio" name="role" value="1" checked>管理员--%>
-						<%--</label>--%>
-						<%--<label class="checkbox-inline">--%>
-							<%--<input type="radio" name="role" value="2">老师--%>
-						<%--</label>--%>
-						<%--<label class="checkbox-inline">--%>
-							<%--<input type="radio" name="role" value="3">学生--%>
-						<%--</label>--%>
-				      <%--</div>--%>
-				    <%--</div>--%>
-				  <%--</div>--%>
-				  <div class="form-group pull-left" style="margin-left: 25px;">
-				    <div class="col-sm-offset-2 col-sm-10">
-				      <button type="submit" class="btn btn-default btn-info">登录</button>
-				    </div>
-				  </div>
+				        <div class="form-group pull-left" style="margin-left: 25px;">
+				        <div class="col-sm-offset-2 col-sm-10">
+				            <button type="submit" class="btn btn-default btn-info">登录</button>
+				        </div>
+				        </div>
+					</fieldset>
 				</form>
 			</div>
 			<div class="col-md-4"></div>
