@@ -25,7 +25,7 @@
 </head>
 <body>
 	<div class="container" style="width: 400px">
-		<div class="row" style="padding: 210px 100px 50px">
+		<div class="row" style="padding: 210px 95px 100px">
 			<div class="col-md-6"></div>
 			<div class="row" id="login-box">
 				<form class="form-horizontal" role="form" action="login" id="from1" method="post">
