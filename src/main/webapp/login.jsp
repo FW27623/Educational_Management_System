@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>登陆页面</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- 引入bootstrap -->
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/bootstrap.min.css">
@@ -11,7 +11,7 @@
 	<script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
 	<style type ="text/css">
 	body{
-	   background: url(images/a.jpg)repeat;
+	   background: url(images/Picture_Repair-192.png)repeat;
 	}
 	#login-box {
 		/*border:1px solid #F00;*/
