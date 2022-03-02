@@ -30,13 +30,13 @@
 			<div class="col-md-4" id="login-box">
 				<form class="form-horizontal" role="form" action="login" id="from1" method="post">
 				  <div class="form-group">
-				    <%--@declare id="firstname"--%><label for="firstname" class="col-sm-3 control-label">用户id</label>
+				    <%--@declare id="firstname"--%><label for="firstname" class="col-sm-3 control-label">用户名</label>
 				    <div class="col-sm-9">
 						<label for="userID"></label><input type="text" class="form-control" id="userID" placeholder="请输入名字" name="username">
 				    </div>
 				  </div>
 				  <div class="form-group">
-				    <%--@declare id="lastname"--%><label for="lastname" class="col-sm-3 control-label">密码</label>
+				    <%--@declare id="lastname"--%><label for="lastname" class="col-sm-3 control-label">密  码</label>
 				    <div class="col-sm-9">
 						<label for="password"></label><input type="password" class="form-control" id="password" placeholder="请输入密码" name="password">
 				    </div>
