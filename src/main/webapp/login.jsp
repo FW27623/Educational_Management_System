@@ -34,11 +34,11 @@
 						<legend align="center" style="font-size: 30px;font-weight: bold" >教务系统</legend>
 						<!-- 这个legend标题自带一个水平线 -->
 						<div class="form-group">
-							<label for="name">用户名：</label>
+							<label for="username">用户名：</label>
 							<label for="username"></label><input type="username" class="form-control" style="width: auto " id="username" placeholder="请输入你的学号/学工号" name="username">
 						</div>
 				        <div class="form-group">
-							<label for="name">密  码：</label>
+							<label for="password">密  码：</label>
 							<label for="password"></label><input type="password" class="form-control" style="width: auto" id="password" placeholder="请输入你的密码" name="password">
 				        </div>
 				        <div class="form-group pull-left" style="margin-left: 25px;">
