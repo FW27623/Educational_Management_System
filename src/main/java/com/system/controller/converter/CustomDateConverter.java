@@ -7,10 +7,6 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * 参数绑定 字符串日期转换器
- * @author FangWei
- */
 public class CustomDateConverter implements Converter<String, Date> {
 
 

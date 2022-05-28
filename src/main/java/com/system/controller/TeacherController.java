@@ -15,12 +15,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import javax.annotation.Resource;
 import java.util.List;
 
-/**
- *
- * @author Jacey
- * @date 2017/7/6
- */
-
 @Controller
 @RequestMapping(value = "/teacher")
 public class TeacherController {

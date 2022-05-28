@@ -12,11 +12,6 @@ import javax.annotation.Resource;
 import java.util.List;
 
 
-/**
- *
- * @author Jacey
- * @date 2017/6/30
- */
 @Controller
 @RequestMapping("/admin")
 public class AdminController {
@@ -397,6 +392,4 @@ public class AdminController {
     public String passwordRestUI() {
         return "admin/passwordRest";
     }
-
-
 }
