@@ -1,4 +1,7 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
+<%request.setCharacterEncoding("UTF-8");%>
+<meta charset="UTF-8">
 <%--shiro标签--%>
 <%@taglib prefix="shiro" uri="http://shiro.apache.org/tags" %>
 <!-- 顶栏 -->

@@ -2,10 +2,6 @@ package com.system.service;
 
 import com.system.po.Userlogin;
 
-/**
- *
- *
- */
 public interface UserloginService {
 
     //根据名字查找用户

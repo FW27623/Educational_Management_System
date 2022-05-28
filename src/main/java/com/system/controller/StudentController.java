@@ -14,11 +14,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.annotation.Resource;
 import java.util.List;
 
-/**
- *
- * @author Jacey
- * @date 2017/7/5
- */
 @Controller
 @RequestMapping(value = "/student")
 public class StudentController {
